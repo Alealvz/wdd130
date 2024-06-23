@@ -1,0 +1,61 @@
+import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+body {
+    font-family: var( -- paragraph-font);
+    max-width: 960px;
+        padding: 20px;
+    }
+
+    :root {
+        --primary-color: #73c1c6 ; /* Tiffany blue */
+        --secondary-color: #96c3ce; /* light blue */
+        --accent-color: #4bc6b9; /* Robbing egg Blue */
+        --additional-accent-color: #349ab2; /* blue green */
+        --heading-font: 'Roboto', sans-serif;
+        --paragraph-font: 'Open Sans', sans-serif;
+        --nav-background-color: #73c1c6; /* Same as primary color */
+        --nav-link-color: #ffffff; /* White */
+        --nav-hover-link-color: #96c3ce; /* Same as secondary color */
+        --nav-hover-background-color: #4bc6b9; /* Same as accent color */
+    }
+
+    body {
+        font-family: var(--paragraph-font);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--heading-font);
+        color: var(--primary-color);
+    }
+
+    header{
+        padding: 20px;
+        background-color: var(--accent1-color);
+    }
+
+    p{
+        padding: 25px;
+    }
+
+    nav {
+        background-color: var(--nav-background-color);
+        font-size: 1.2rem;
+        display:flex
+    }
+
+    nav a {
+        display:blocl;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 1rem;
+    }
+
+    nav a:link, nav a:visited {
+        color: var(--nav-link-color);
+    }
+    nav a:hover {
+        color: var(--nav-hover-link-color);
+        background-color: var(--nav-hover-background-color);
+    }
+</style>
+
+</head>
